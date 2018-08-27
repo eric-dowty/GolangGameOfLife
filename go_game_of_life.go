@@ -91,7 +91,7 @@ func main() {
       tick_count++
       fmt.Print("\nTIC #", tick_count, "\n")
       for i := 0; i < length; i++ {
-	fmt.Println(tic[i])
+				fmt.Println(tic[i])
       }
       tic = CreateNextTic(tic,next_tic)
     }
