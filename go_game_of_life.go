@@ -8,6 +8,8 @@ import (
   "math/rand"
 )
 
+#### SOME NOTES #####
+
 func UserInput(prompt string) string {
   fmt.Print(prompt)
   input := bufio.NewScanner(os.Stdin)
@@ -28,6 +30,11 @@ func IndicesInbounds(length,i,j int) bool {
   j_in_bounds := j >= 0 && j < length
 
   return i_in_bounds && j_in_bounds
+}
+
+
+func NotUsed(x int) {
+  # nothing
 }
 
 func BuildGrid(length int) [][]int {
